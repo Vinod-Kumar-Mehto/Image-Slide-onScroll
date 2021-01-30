@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0%;
+}
+
+img{
+    float: left;
+    margin: 15px;
+    transform: translateX(-210%);
+}
+.slide_in {
+    opacity: 0;
+    transition: all .7s;
+}
+
+ .active{
+    opacity: 1;
+    transform: translateX(0%);
+}
+.compact{
+    width: 800px;
+    display: inline-block;
+    align-items: center;
+    transform: translateX(300px);
+}
